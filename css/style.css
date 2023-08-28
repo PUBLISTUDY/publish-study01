@@ -24,7 +24,7 @@ main .banner-box .banner-con span{display: block; color: #F7941D;}
 
 main .section-wrap{display: flex; flex-direction: row; flex-wrap: wrap; margin-top: 58px; justify-content: center;}
 main .article-wrap{display: flex; flex-direction: row; margin-bottom: 46px;}
-.main .article-wrap.special-align{justify-content: flex-start !important;}
+main .article-wrap.special-align{ }
 main .article-wrap .article-box{display: flex; flex-direction: column; align-items: center; border-radius: 10px; padding: 15px 18px; background: #fff; margin-right: 24px;}
 main .article-wrap .article-box .img-box{margin-bottom: 20px;}
 main .article-wrap .article-box .txt-box .top-box .tit{width: 270px; font-size: 14px; color: #12416B; margin-bottom: 3px; font-weight: 700;}
