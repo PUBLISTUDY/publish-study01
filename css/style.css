@@ -16,11 +16,12 @@ header button{background: #F7941D; color: #12416B; padding: 6px 30px; border-rad
 
 
 main{background: #F2F2F2;}
-main .banner-box{background: #CEE3F4;}
-main .bg{width: 100%; height: 100%; background-image: url('../img/img-bg.png'); background-repeat: no-repeat; background-position:1px 277px;}
-main .banner-box .banner-con{display: flex; flex-direction: row; justify-content: center; align-items: center; font-size: 40px; color: #242D3C; font-weight: 700;}
-main .banner-box .banner-con span{display: block; color: #F7941D;}
-
+main .banner-box{ position: relative; height: 243px; background: #CEE3F4;}
+main .bg{position: absolute; width: 376px; height: 387px; top: 0; left: 712px; background-image: url('../img/img-bg.png'); background-repeat: no-repeat; z-index: 100;}
+main .banner-box .banner-con{position: relative; width: 100%;  display: flex; flex-direction: row; justify-content: center; align-items: center; font-size: 40px; color: #242D3C; font-weight: 700; z-index: 200;}
+main .banner-box .banner-con .img-box{position: absolute;   top: 9px; left:745px;}
+main .banner-box .banner-con span{position: relative; width: 100%; top: 0; left: 0; display: block; color: #F7941D; z-index: 200;}
+main .banner-box .banner-con h2{position: relative; width: 100%; top: 76px; left: 189px; z-index: 200; font-size: 40px;}
 
 main .section-wrap{display: flex; flex-direction: row; flex-wrap: wrap; margin-top: 58px; justify-content: center;}
 main .article-wrap{display: flex; flex-direction: row; margin-bottom: 46px;}
